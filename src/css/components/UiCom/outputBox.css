@@ -1,0 +1,21 @@
+.outputBox-mainDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+}
+
+.outputBox-mainDiv label {
+  font-size: 13px;
+}
+
+.outputBox-mainDiv input {
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #e2e4e5;
+  padding: 7px;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

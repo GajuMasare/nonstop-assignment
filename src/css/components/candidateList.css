@@ -1,0 +1,48 @@
+.CandidateList-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.CandidateList-table {
+  width: 100%;
+  border-collapse: collapse;
+  height: 100%;
+  font-size: 13px;
+}
+
+.CandidateList-table-Header {
+  background-color: #059d66;
+  color: #ffffff;
+}
+
+.CandidateList-table-Header th {
+  border-left: 1px solid #969696;
+  border-right: 1px solid #969696;
+  font-weight: 600;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.CandidateList-table-data td {
+  border: 1px solid #969696;
+  padding: 5px;
+  text-align: center;
+  word-wrap: break-word;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #242426;
+}
+
+.CandidateList-table-data:hover {
+  background-color: #eaeaea;
+}
+
+.CandidateList-table-Header th:first-child {
+  border-top-left-radius: 12px;
+}
+
+.CandidateList-table-Header th:last-child {
+  border-top-right-radius: 12px;
+}

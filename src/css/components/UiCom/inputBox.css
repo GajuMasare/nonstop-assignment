@@ -1,0 +1,33 @@
+.InputBox-mainDiv {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.InputBox-mainDiv label {
+  font-size: 15px;
+}
+
+.InputBox-mainDiv input {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #666666;
+}
+
+.InputBox-loginBtn {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 32px;
+  background-color: #1dbf73;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  height: 40px;
+}
+
+.InputBox-loginBtn:hover {
+  background-color: #18a061;
+}

@@ -1,0 +1,110 @@
+.LoginPage-mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    230deg,
+    rgba(2, 63, 41, 1) 0%,
+    rgba(5, 157, 102, 1) 100%
+  );
+}
+
+.LoginPage-mainBox {
+  border-radius: 24px;
+  background-color: #ffffff;
+  height: 80%;
+  width: 30%;
+  padding: 30px;
+}
+
+.LoginPage-headerDiv h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.LoginPage-headerDiv p {
+  font-size: 12px;
+  color: #666666;
+}
+
+.InputBox-eachDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.InputBox-eachDiv label {
+  font-size: 14px;
+  color: #666666;
+}
+
+.InputBox-eachDiv input {
+  border-radius: 8px;
+  border: 1px solid #969696;
+  height: 40px;
+}
+
+.InputBox-Or {
+  text-align: center;
+  color: #666666;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.InputBox-loginWithSocialDiv {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.socialDiv {
+  height: 45px;
+  width: 120px;
+  border-radius: 40px;
+  border: 1px solid #1dbf73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialDiv:hover {
+  background-color: #1dbf73;
+}
+
+.socialDiv img {
+  width: 25px;
+  height: 25px;
+}
+
+.InputBox-dontHaveAcc {
+  margin-top: 35px;
+  justify-content: center;
+  color: #666666;
+  font-size: 14px;
+  display: flex;
+}
+
+.InputBox-dontHaveAcc-secondText {
+  color: #1dbf73;
+}
+
+.InputBox-loginBtn {
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 32px;
+  background-color: #1dbf73;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  height: 40px;
+}
+
+.InputBox-loginBtn:hover {
+  background-color: #18a061;
+}
